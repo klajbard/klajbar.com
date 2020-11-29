@@ -1,0 +1,21 @@
+{
+  "name": "klajbar",
+  "description": "Homepage",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp",
+    "format": "prettier '{,src}/**/*.{html,js}' --write"
+  },
+  "dependencies": {
+    "lit-element": "2.4.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "2.0.0",
+    "browser-sync": "2.26.13",
+    "gulp": "4.0.2",
+    "gulp-clean": "0.4.0",
+    "prettier": "2.2.1",
+    "rollup": "2.33.3",
+    "rollup-plugin-node-resolve": "5.2.0"
+  }
+}
