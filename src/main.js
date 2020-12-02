@@ -3,6 +3,7 @@ import "./components/app-footer/app-footer";
 import "./components/app-more/app-more";
 import "./components/app-title/app-title";
 import "./components/more-button/more-button";
+import "./components/scroll-top/scroll-top";
 
 function handleClick() {
   window.scrollTo({

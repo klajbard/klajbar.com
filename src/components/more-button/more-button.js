@@ -1,4 +1,5 @@
 import { LitElement, html, css } from "lit-element";
+import "../../icons/down-arrow";
 
 export class MoreButton extends LitElement {
   constructor() {
@@ -66,12 +67,7 @@ export class MoreButton extends LitElement {
   render() {
     return html`
       <button class="button">
-        <svg width="48px" height="15px" viewBox="0 0 64 20">
-          <polygon
-            fill="currentColor"
-            points="64,0 64,6 32,20 0,6 0,0 32,13 64,0"
-          ></polygon>
-        </svg>
+        <down-arrow></down-arrow>
       </button>
     `;
   }

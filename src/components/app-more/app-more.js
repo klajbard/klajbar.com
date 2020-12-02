@@ -92,7 +92,7 @@ export class AppMore extends LitElement {
         transform: translate(-50%, -50%);
         width: var(--size);
         height: var(--size);
-        background: currentColor;
+        background-color: var(--app-focus-background, currentColor);
         clip-path: circle(0%);
         opacity: 0.3;
         border-radius: inherit;
@@ -118,7 +118,7 @@ export class AppMore extends LitElement {
 
   renderNextButton() {
     if (this.renderNext) {
-      return html` <more-button @click="${this.handleClick}"></more-button> `;
+      return html` <more-button @click="${this._handleClick}"></more-button> `;
     }
   }
 
