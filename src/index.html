@@ -77,19 +77,19 @@
         --more-background: #fbf1ee;
       "
       inset
-      renderNext
       image="/assets/wattaurus-banner.svg"
       link="http://wattaurus.com"
-    ></app-more>
-    <app-more
-      style="
-        --app-focus: #7f6432;
-        --more-background: #dfd8cc;
-        --app-focus-background: #9f8b66;
-      "
-      image="/assets/nanowash-banner.png"
-      link="http://nanowash11.hu"
-    ></app-more>
+    >
+      <app-more-link
+        image="/assets/wattaurus-banner.svg"
+        link="http://wattaurus.com"
+      ></app-more-link>
+      <app-more-link
+        style="--app-focus: #7f6432; --app-focus-background: #9f8b66"
+        image="/assets/nanowash-banner.png"
+        link="http://nanowash11.hu"
+      ></app-more-link>
+    </app-more>
     <scroll-top></scroll-top>
   </body>
 </html>

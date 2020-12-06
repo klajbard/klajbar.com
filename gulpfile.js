@@ -24,7 +24,6 @@ gulp.task("build", async () => {
     output: {
       file: "dist/main.js",
       format: "es",
-      sourcemap: true,
     },
     plugins: [resolve()],
   });
@@ -33,7 +32,6 @@ gulp.task("build", async () => {
     file: "./dist/index.js",
     format: "umd",
     name: "library",
-    sourcemap: true,
   });
 });
 

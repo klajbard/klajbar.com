@@ -21,10 +21,10 @@ export class MoreButton extends LitElement {
       .button:hover {
         animation: none;
         animation: pulseHover 0.5s ease-out forwards;
-        color: var(--more-button-focus-color ,var(--main-color));
+        color: var(--more-button-focus-color, var(--main-color));
       }
       .button {
-        color: var(--more-button-color ,var(--white));
+        color: var(--more-button-color, var(--white));
         background: transparent;
         cursor: pointer;
         border: none;
