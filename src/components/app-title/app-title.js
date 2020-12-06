@@ -21,12 +21,12 @@ export class AppTitle extends LitElement {
       }
       .header__title {
         margin: 0;
-        margin-left: 1rem;
         color: var(--white);
         line-height: 64px;
         font-size: 56px;
       }
       .header__link {
+        margin-left: 1rem;
         text-decoration: none;
       }
     `;

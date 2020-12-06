@@ -27,6 +27,7 @@ export class AppMore extends LitElement {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        min-height: -webkit-fill-available;
         background-color: var(--more-background, --background-light);
         position: relative;
       }
@@ -134,6 +135,7 @@ export class AppMore extends LitElement {
           @blur=${this._handleBlur}
           @mouseup=${this._handleBlur}
           @dragend=${this._handleBlur}
+          @touchend=${this._handleBlur}
         >
           <img class="image" src="${this.image}" />
         </a>
