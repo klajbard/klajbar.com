@@ -18,7 +18,7 @@ export class AppMore extends LitElement {
   static get styles() {
     return css`
       :host {
-        display: block;
+        display: flex;
         flex-direction: column;
         min-height: 100vh;
         min-height: -webkit-fill-available;
@@ -31,10 +31,8 @@ export class AppMore extends LitElement {
       }
 
       .container {
-        position: absolute;
-        height: 100%;
-        width: 100%;
         display: flex;
+        flex: 1;
       }
 
       .inner-container {
